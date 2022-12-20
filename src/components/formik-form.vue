@@ -19,13 +19,10 @@ import {shallowRef} from "vue";
       currentComponent.value = firstComponent;
     }
   }
-
-const name = 'formik name d';
 </script>
 
 <template>
   <div>
-    <h1>{{name}}</h1>
     <button :onclick="componentsLooping" >click</button>
     <component :is="currentComponent" />
 
