@@ -4,6 +4,7 @@
     <h1>Before</h1>
     <div>
       <Formik />
+      <Field name="fieldName" type="password"/>
 
     </div>
     <h1>After</h1>
@@ -14,6 +15,7 @@
 
 <script setup>
 import Formik from "./components/formik-form.vue";
+import Field from "@/components/formik-field.vue";
 
 </script>
 

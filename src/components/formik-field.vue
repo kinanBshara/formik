@@ -1,10 +1,10 @@
 <script setup>
-import {defineProps , withDefaults} from "vue";
+import {defineProps} from "vue";
 const props = defineProps({name: String, type: String});
 
-const input = {
+const field_input = {
   template: `
-  <input name = ${props.name} type = ${props.type}>
+  <input name=${props.name} type=${props.type}>
   </input>
   `
 }
@@ -14,7 +14,7 @@ const input = {
 
 <template>
   <div id="field">
-  <component :is=input.template></component>
+  <component :is="field_input"></component>
   </div>
 </template>
 
