@@ -1,3 +1,8 @@
+#### Desole mais j'ai pas de background dev web.
+#### Je n'ai pas de partenaire dans le projet afin de ne pas affecte la note des autre etudients.
+#### Je fait mon mieux pour me rattraper.
+#### Merci
+
 # formik
 
 ## Project setup
@@ -20,5 +25,3 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
